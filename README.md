@@ -1,4 +1,4 @@
-# 🤱 Mommy Care — AI Pregnancy Monitoring App
+#  Mommy Care — AI Pregnancy Monitoring App
 
 > **Proof of Concept · Team Anomali · Hackathon 2025**
 
@@ -6,21 +6,21 @@ Aplikasi pemantauan tumbuh kembang janin berbasis AI yang menggabungkan **Machin
 
 ---
 
-## 📸 Fitur Utama
+## Fitur Utama
 
 | Fitur | Deskripsi |
 |-------|-----------|
-| 🗓️ **Kalkulasi HPL** | Otomatis via Naegele's Rule dari input HPHT |
-| 🤖 **Prediksi Risiko AI** | Random Forest / Logistic Regression / Gradient Boosting |
-| 📊 **Visualisasi Interaktif** | Gauge, Pie chart, Bar chart, Confusion Matrix |
-| 💰 **Perencanaan Finansial** | Target tabungan otomatis berdasarkan skor risiko |
-| 📋 **Rekomendasi Personalisasi** | Berubah dinamis sesuai kondisi input |
-| 📚 **Edukasi Trimester** | Konten klinis per trimester |
-| 🔄 **Retrain Model** | Tombol retrain langsung dari UI |
+|  **Kalkulasi HPL** | Otomatis via Naegele's Rule dari input HPHT |
+|  **Prediksi Risiko AI** | Random Forest / Logistic Regression / Gradient Boosting |
+|  **Visualisasi Interaktif** | Gauge, Pie chart, Bar chart, Confusion Matrix |
+|  **Perencanaan Finansial** | Target tabungan otomatis berdasarkan skor risiko |
+|  **Rekomendasi Personalisasi** | Berubah dinamis sesuai kondisi input |
+|  **Edukasi Trimester** | Konten klinis per trimester |
+|  **Retrain Model** | Tombol retrain langsung dari UI |
 
 ---
 
-## 🗂️ Struktur Project
+##  Struktur Project
 
 ```
 mommy_care/
@@ -47,7 +47,7 @@ mommy_care/
 
 ---
 
-## ⚙️ Cara Menjalankan
+##  Cara Menjalankan
 
 ### 1. Clone / Download project
 
@@ -104,7 +104,7 @@ Aplikasi akan terbuka otomatis di browser: `http://localhost:8501`
 
 ---
 
-## 🤖 Detail Model ML
+##  Detail Model ML
 
 ### Dataset
 
@@ -152,7 +152,7 @@ Selain prediksi utama, sistem menghitung estimasi risiko spesifik berbasis rule-
 
 ---
 
-## 🏗️ Arsitektur Sistem
+##  Arsitektur Sistem
 
 ```
 User Input (Sidebar)
@@ -175,7 +175,7 @@ User Input (Sidebar)
 
 ---
 
-## 🔧 Kustomisasi
+##  Kustomisasi
 
 ### Mengganti Dataset
 
@@ -205,33 +205,11 @@ NORMAL_COST = 8_000_000   # Rp 8 juta
 CAESAR_COST = 25_000_000  # Rp 25 juta
 ```
 
----
 
-## 📝 Roadmap Future Features
-
-- [ ] Integrasi dataset USG → CNN analysis (Convolutional Neural Network)
-- [ ] Integrasi hasil lab (hemoglobin, protein urin, dll)
-- [ ] Rekam medis elektronik (EMR) sync dengan klinik mitra
-- [ ] Payment gateway integration untuk tabungan persalinan
-- [ ] Notifikasi push (jadwal kontrol, pengingat suplemen)
-- [ ] Export laporan PDF untuk dokter
-- [ ] Multi-language support (English, Jawa, Sunda)
-
----
-
-## ⚠️ Disclaimer
+##  Disclaimer
 
 Aplikasi ini adalah **Proof of Concept** untuk keperluan hackathon. **Bukan pengganti konsultasi medis profesional.** Semua prediksi bersifat estimasi berbasis data sintetis dan harus divalidasi oleh tenaga kesehatan berlisensi sebelum digunakan secara klinis.
 
 ---
 
-## 👥 Team Anomali
 
-| Peran | Fokus |
-|-------|-------|
-| Informatika (2x) | Arsitektur aplikasi, algoritma AI/ML |
-| Sistem Informasi (1x) | UI/UX, alur sistem, model bisnis |
-
----
-
-*Built with ❤️ using Streamlit + scikit-learn*
